@@ -2,7 +2,7 @@ module.exports = {
   entry: './index.js',
   output: {
     filename: './dist/abi-decoder.js',
-    libraryTarget: 'var',
+    libraryTarget: 'umd',
     library: 'abiDecoder',
   },
   module: {
